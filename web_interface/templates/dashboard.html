@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ session['username'] }}</h1>
+    <h2>CPU Usage: {{ cpu_percent }}%</h2>
+    <h2>RAM Usage: {{ ram_percent }}%</h2>
+    <a href="/logout">Logout</a>
+</body>
+</html>
